@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: cypress/browsers:22.16.0
-      option: --user 1001
+      options: --user 1001
     # Runs tests in parallel with matrix strategy https://docs.cypress.io/guides/guides/parallelization
     # https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs
     # Also see warning here https://github.com/cypress-io/github-action#parallel
